@@ -25,7 +25,8 @@ For the sake of clean organisation the following conventions should be respected
  
 ## how can I use it?
 
-1. Clone this repository and `git checkout system`.
+1. Clone this repository and `git fetch refs/*:refs/*` to set up all branches and release tags appropriately. 
+2. `git checkout system`
 2. Inspect the `checkout-all.sh` to see an example manifest file with the latest versions of all components.
 3. Execute `checkout-all.sh` to compose the latest system.
 4. In order to prepare working on component-1 clean your index and working tree with `clean-all.sh`.
