@@ -1,3 +1,3 @@
-git checkout component1-0.0.1 -- .
-git checkout component2 -- .
-git checkout component3 -- .
+git checkout component-1-0.0.1 -- .
+git checkout component-2 -- .
+git checkout component-3 -- .
