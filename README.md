@@ -17,7 +17,7 @@ For the sake of clean organisation the following conventions should be respected
  - `component-<component_name>-<branch_name>` (this is a per-component non-master branch, e.g. `component-1-experimental`)
 3. The following naming conventions apply to system branches:
  - `system` (this is the system master branch, which should declare the latest version of all components in its `checkout-all.sh`)
- - `system-<branch_name>` (this is a system non-master branch e.g. `system-clientA`. It can declare a mix of the latest versions of components or component release tags or component experimental branches in its `checkout-all.sh`)
+ - `system-<branch_name>` (this is a system non-master branch e.g. `system-clientA`. It can declare a mix of the latest versions of components or component release tags or component experimental branches in its `checkout-all.sh`. It doesn't have to declare all system components.)
  4. The following naming convention applies both to system and component release tags:
  - `[system|component]-<semver>` (semver is a [semantic version number](http://semver.org/), e.g. `component-1-0.0.1`)
 5. The checkout-all.sh should be a bash script containing only lines of the following format:
